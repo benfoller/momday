@@ -124,6 +124,57 @@
                 opacity: 1;
             }
         }
+
+        /* Мобильная адаптация */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            .photo {
+                width: 150px;
+                height: 150px;
+            }
+
+            .message {
+                font-size: 20px;
+            }
+
+            .poem {
+                font-size: 18px;
+            }
+
+            footer {
+                font-size: 12px;
+                padding: 5px 0;
+            }
+        }
+
+        /* Очень маленькие экраны (например, телефоны в портретном режиме) */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            .photo {
+                width: 120px;
+                height: 120px;
+            }
+
+            .message {
+                font-size: 18px;
+            }
+
+            .poem {
+                font-size: 16px;
+            }
+
+            footer {
+                font-size: 10px;
+                padding: 5px 0;
+            }
+        }
+
     </style>
 </head>
 <body>
